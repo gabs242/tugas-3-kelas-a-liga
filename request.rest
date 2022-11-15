@@ -15,7 +15,7 @@ PATCH http://localhost:5000/budaya/2
 Content-Type: application/json
 
 {
-    "nama_budaya"      : "Waguran",
+    "nama_budaya"      : "Waruga",
     "jenis_budaya"     : "Objek",
     "tempat_budaya"    : "Sawangan",
 }
