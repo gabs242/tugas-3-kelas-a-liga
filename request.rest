@@ -1,0 +1,24 @@
+GET http://localhost:5000/budaya
+
+GET http://localhost:5000/budaya/1
+
+POST http://localhost:5000/budaya
+Content-Type: application/json
+
+{
+    "nama_budaya"      : "Tarian Cakalang",
+    "jenis_budaya"     : "Tarian",
+    "tempat_budaya"    : "Bitung",
+}
+
+PATCH http://localhost:5000/budaya/2
+Content-Type: application/json
+
+{
+    "nama_budaya"      : "Waguran",
+    "jenis_budaya"     : "Objek",
+    "tempat_budaya"    : "Sawangan",
+}
+
+DELETE http://localhost:5000/budaya/4
+Content-Type: application/json
