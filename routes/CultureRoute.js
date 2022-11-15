@@ -6,7 +6,7 @@ import {
     updateBudaya,
     deleteBudaya,
     
-} from '../controller/Budaya.js';
+} from '../controller/Culture.js';
 
 const router = express.Router();
 

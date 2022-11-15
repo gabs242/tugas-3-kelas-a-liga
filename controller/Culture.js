@@ -1,4 +1,4 @@
-import Budaya from "../model/CultureModel";
+import Budaya from '../model/CultureModel.js';
 
 export const getBudaya = async (req, res) => {
     try {
