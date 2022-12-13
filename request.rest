@@ -1,24 +1,36 @@
 GET http://localhost:5000/budaya
 
+###
 GET http://localhost:5000/budaya/1
 
+###
 POST http://localhost:5000/budaya
 Content-Type: application/json
 
 {
-    "nama_budaya"      : "Tarian Cakalang",
+    "nama_budaya"      : "Tarian Kabasaran",
     "jenis_budaya"     : "Tarian",
-    "tempat_budaya"    : "Bitung",
+    "tempat_budaya"    : "Minahasa",
+    "deskripsi"        : "Tarian ini merupakan tarian keprajuritan tradisional Minahasa, yang diangkat dari kata; Wasal, yang
+                            berarti ayam jantan yang dipotong jenggernya agar sang ayam menjadi lebih garang dalam bertarung. 
+                            Kata Kawasalan ini kemudian berkembang menjadi “Kabasaran” yang merupakan gabungan dua kata “Kawasal ni
+                            Sarian” “Kawasal” berarti menemani dan mengikuti gerak tari, sedangkan “Sarian” adalah pemimpin perang
+                            yang memimpin tari keprajuritan tradisional Minahasa.
+                            Tari Kabasaran diiringi oleh suara tambur atau gong kecil. Alat musik seperti gong, tambur atau
+                            kolintang disebut “pa” “wasalen” dan para penarinya disebut kawasaran, yang menari dengan meniru gerakan
+                            dua yama jantan yang sedang bertarung, hampir mirip dengan tarian Cakalele dari Maluku."
 }
 
+###
 PATCH http://localhost:5000/budaya/2
 Content-Type: application/json
 
 {
     "nama_budaya"      : "Waruga",
-    "jenis_budaya"     : "Objek",
-    "tempat_budaya"    : "Sawangan",
+    "jenis_budaya"     : "Bangunan",
+    "tempat_budaya"    : "Minahasa",
 }
 
+###
 DELETE http://localhost:5000/budaya/4
 Content-Type: application/json
